@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 data "aws_route53_zone" "default" {
-  name  = "aws.itunufatoki.com."
+  name  = "aws.guilhermerodriguesti.com."
 }
 
 # Create the Route53 record for the production product
